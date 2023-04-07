@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <title>Закуток</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
-
   </head>
   <body>
-    <video autoplay loop muted  id="galaxyvideo" controls>
-    <source src="video/galaxy.mp4" type="video/mp4"></video>
-
+    <video autoplay loop muted id="galaxyvideo" class="zoom">
+      <source src="video/galaxy1.mp4" type="video/mp4">
+    </video>
+    <video src="https://hdenism.github.io/ap4/video/galaxy1.mp4" autoplay loop controls="controls" muted="muted" style="max-width: 100vw; max-height: 100vh;"></video>
     <div class="home">
       <div class="punktir"></div>
       <div class="pop">екыавас</div>
     </div>
 
+    <button onclick="redirectToPage()">Перейти на другую страницу</button>
+
+    <script src="script.js"></script>
   </body>
 </html>
