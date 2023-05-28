@@ -1,0 +1,43 @@
+body {
+  background-color: #333333; /* Темно-серый цвет фона */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: #333333; /* Темно-серый цвет круга */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spiral {
+  width: 100px;
+  height: 20px;
+  background-color: yellow; /* Желтый цвет спиральной галактики */
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

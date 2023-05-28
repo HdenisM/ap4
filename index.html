@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Закуток</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-  </head>
-  <body>
-    <video autoplay loop muted id="galaxyvideo" class="zoom">
-      <source src="video/galaxy1.mp4" type="video/mp4">
-    </video>
-    <video src="https://hdenism.github.io/ap4/video/galaxy1.mp4" autoplay loop controls="controls" muted="muted" style="max-width: 100vw; max-height: 100vh;"></video>
-    <div class="home">
-      <div class="punktir"></div>
-      <div class="pop">екыавас</div>
+<html>
+<head>
+  <title>Мой сайт</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <div class="SK">
+    <div class="station">
+      <div class="image" id="image">
+      <img src="images/станция.svg" alt="станция" width="200vw"></div>
     </div>
 
-    <button onclick="redirectToPage()">Перейти на другую страницу</button>
+    <div class="fill"></div>
 
-    <script src="script.js"></script>
-  </body>
+    <div class="spin2">
+      <div class="krug1" id="animationspin">
+        <div class="blue" id="circle"></div>
+      </div>
+      <div class="krug2" id="animationspin">
+        <div class="red" id="circle"></div>
+      </div>
+      <div class="krug3" id="animationspin">
+        <div class="violet" id="circle"></div>
+      </div>
+      <div class="krug4" id="animationspin">
+        <div class="green" id="circle"></div>
+      </div>
+      <div class="krug5" id="animationspin">
+        <div class="yellow" id="circle"></div>
+      </div>
+      </div>
+    </div>
+
+  <div class="main">
+    <div class="top">
+      <div class="Bblue" id="topButton"></div>
+      <div class="Bred" id="topButton"></div>
+      <div class="BIMAGE" id="topButton">
+        <img src="images/станция.svg" alt="станция" id="topButton" width="100vw">
+      </div>
+      <div class="Bviolet" id="topButton"></div>
+      <div class="Bgreen" id="topButton"></div>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
 </html>
